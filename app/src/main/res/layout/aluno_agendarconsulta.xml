@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <!-- Top Bar -->
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnVoltar2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_setaleft" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="Agendar consulta"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_menu" />
+    </LinearLayout>
+
+    <!-- Horários Disponíveis -->
+    <TextView
+        android:id="@+id/labelHorarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horários Disponíveis"
+        android:textColor="@color/colorPrimaryVariant"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerHorarios"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/labelHorarios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorSurfaceVariant"/>
+
+    <!-- Confirme seus dados -->
+    <TextView
+        android:id="@+id/labelConfirme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirme seus dados"
+        android:textColor="@color/colorPrimaryVariant"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/spinnerHorarios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        />
+
+    <EditText
+        android:id="@+id/inputNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nome do cadastro"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/labelConfirme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorSurfaceVariant"
+        android:textColor="@color/textColorPrimary"/>
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail do cadastro"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/inputNome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorSurfaceVariant"
+        android:textColor="@color/textColorPrimary"/>
+
+    <EditText
+        android:id="@+id/inputCPF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="CPF do cadastro"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/inputEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorSurfaceVariant"
+        android:textColor="@color/textColorPrimary"/>
+
+    <EditText
+        android:id="@+id/inputTelefone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Insira seu telefone"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/inputCPF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorSurfaceVariant"
+        android:textColor="@color/textColorPrimary"
+        />
+
+    <Button
+        android:id="@+id/agendarConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGENDAR CONSULTA"
+        android:backgroundTint="@color/buttonBackground"
+        app:layout_constraintTop_toBottomOf="@id/inputTelefone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Barra inferior -->
+    <LinearLayout
+        android:id="@+id/bottomNavigation"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="@color/colorBackground"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <include layout="@layout/activity_setup_bottom_navigation" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

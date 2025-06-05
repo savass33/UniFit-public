@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navBar"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/colorBackground"
+    android:elevation="4dp">
+
+    <ImageView
+        android:id="@+id/btnChatADM"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_chat" />
+
+    <ImageView
+        android:id="@+id/btnSearchADM"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:src="@drawable/image" />
+
+    <ImageView
+        android:id="@+id/btnHomeADM"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_home" />
+
+    <ImageView
+        android:id="@+id/btnNotificacaoADM"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_notificacao" />
+
+</LinearLayout>

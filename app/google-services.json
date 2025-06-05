@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "806743329100",
+    "project_id": "unifit-de91e",
+    "storage_bucket": "unifit-de91e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806743329100:android:3b48ca948e0302eacda7e9",
+        "android_client_info": {
+          "package_name": "com.example.atividade1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBthVLudN5HwETjMPdU2Jsh7OKyCDMv8_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

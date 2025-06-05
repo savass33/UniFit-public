@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Semantic Palette (Dark Theme) -->
+    <!-- Overrides for dark theme. Uses base colors from values/colors.xml -->
+
+    <!-- Primary colors - Using the same blue as light theme for brand consistency -->
+    <!-- Consider a lighter shade like #82B1FF if contrast feels low on large surfaces -->
+    <color name="colorPrimary">@color/blue_primary</color>
+    <color name="colorPrimaryVariant">#003380</color> <!-- Same darker shade as light theme -->
+    <color name="colorOnPrimary">@color/white</color> <!-- Ensure text on primary blue is white -->
+
+    <!-- Secondary colors - Using the same green as light theme -->
+    <color name="colorSecondary">@color/green_launcher</color>
+    <color name="colorSecondaryVariant">#2EAF6A</color> <!-- Same darker shade as light theme -->
+    <color name="colorOnSecondary">@color/black</color>
+
+    <!-- Backgrounds and Surfaces -->
+    <color name="colorBackground">#0B112E</color> <!-- Standard dark background -->
+    <color name="colorBackgroundInverse">@color/white</color>
+    <color name="colorOnBackground">#121212</color> <!-- Light gray text on dark background -->
+    <color name="colorSurface">#1E1E1E</color> <!-- Slightly lighter surface for cards, dialogs etc. -->
+    <color name="colorOnSurface">#E0E0E0</color> <!-- Light gray text on surface -->
+    <color name="colorSurfaceVariant">#20242C</color> <!-- Different shade of dark gray for subtle differentiation -->
+    <color name="colorOnSurfaceVariant">#BDBDBD</color> <!-- Medium gray text on surface variant -->
+    <color name="colorOutline">#303030</color> <!-- Medium dark gray for outlines/strokes -->
+
+    <!-- Error colors -->
+    <color name="colorError">#CF6679</color> <!-- Material dark theme error color -->
+    <color name="colorOnError">@color/black</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">@color/white</color> <!-- Primary text is white -->
+    <color name="textColorSecondary">#BDBDBD</color> <!-- Secondary text is medium gray -->
+    <color name="textColorHint">#757575</color> <!-- Hint text is darker medium gray -->
+    <color name="textColorLink">#82B1FF</color> <!-- Lighter blue for links for better visibility -->
+
+    <!-- Specific Component Colors (Ensure they use theme attributes in layouts/styles) -->
+    <!-- These act as defaults if not overridden by theme attributes -->
+    <color name="buttonBackground">@color/colorPrimary</color>
+    <color name="buttonTextColor">@color/colorOnPrimary</color>
+    <color name="editTextBackground">@color/colorSurface</color>
+    <color name="editTextStroke">@color/colorOutline</color>
+    <color name="cardBackground">@color/colorSurface</color>
+    <color name="iconTint">@color/textColorSecondary</color> <!-- Default tint for icons -->
+    <color name="iconTintActive">@color/textColorLink</color> <!-- Tint for active/selected icons (using lighter blue link color) -->
+
+    <!-- Status Colors (Example - Ensure contrast) -->
+    <color name="statusOnline">#81C784</color> <!-- Lighter Green -->
+    <color name="statusOffline">#E57373</color> <!-- Lighter Red -->
+
+</resources>
+

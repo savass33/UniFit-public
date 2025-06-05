@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniFit"
+        tools:targetApi="31">
+        <activity
+            android:name=".setupBottomNavigationADM"
+            android:exported="false" />
+        <activity
+            android:name=".setupBottomNavigation"
+            android:exported="false" />
+        <activity
+            android:name=".aluno_Contato"
+            android:exported="false" />
+        <activity
+            android:name=".func_TelaNotificacaoADM"
+            android:exported="false" />
+        <activity
+            android:name=".func_TelaChatBot"
+            android:exported="false" />
+        <activity
+            android:name=".inicio"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".TelaCadastro"
+            android:exported="true" />
+        <activity
+            android:name=".aluno_Home"
+            android:exported="true" />
+        <activity
+            android:name=".RecuperarSenha"
+            android:exported="true" />
+        <activity
+            android:name=".RecuperarSenha2"
+            android:exported="true" />
+        <activity
+            android:name=".TelaPerfil"
+            android:exported="true" />
+        <activity
+            android:name=".TelaEditarPerfil"
+            android:exported="true" />
+        <activity
+            android:name=".aluno_TelaCalendario"
+            android:exported="true" />
+        <activity
+            android:name=".aluno_TelaNotificacao"
+            android:exported="true" />
+        <activity
+            android:name=".aluno_TelaChat"
+            android:exported="true" />
+        <activity
+            android:name=".func_Home"
+            android:exported="true" />
+        <activity
+            android:name=".func_EditaAlunos"
+            android:exported="true" />
+        <activity
+            android:name=".func_AdicionaExercicio"
+            android:exported="true" />
+        <activity
+            android:name=".func_EdicaoTreino"
+            android:exported="true" />
+        <activity
+            android:name=".aluno_Treino"
+            android:exported="true" />
+        <activity
+            android:name=".func_AlunoSelecionado"
+            android:exported="true" />
+        <activity
+            android:name=".aluno_Consulta"
+            android:exported="true" />
+        <activity
+            android:name=".aluno_AgendarConsulta"
+            android:exported="true" />
+        <activity
+            android:name=".func_EditaExercicio"
+            android:exported="true" />
+    </application>
+
+</manifest>

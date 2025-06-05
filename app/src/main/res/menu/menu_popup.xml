@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_perfil" android:title="Perfil" android:icon="@drawable/ic_usericon"/>
+    <item android:id="@+id/menu_treinos" android:title="Treinos" android:icon="@drawable/ic_usericon"/>
+    <item android:id="@+id/menu_bot" android:title="Uni Bot" android:icon="@drawable/ic_usericon"/>
+    <item android:id="@+id/contatos" android:title="Contato" android:icon="@drawable/ic_usericon"/>
+    <item android:id="@+id/menu_notificacoes" android:title="Notificações" android:icon="@drawable/ic_notificacao"/>
+    <item android:id="@+id/menu_dark_mode" android:title="Dark Mode" android:icon="@drawable/ic_usericon"/>
+    <item android:id="@+id/menu_calendario" android:title="Calendário" android:icon="@drawable/ic_usericon"/>
+    <item android:id="@+id/menu_sair" android:title="Sair" android:icon="@drawable/ic_setaleft"/>
+</menu>

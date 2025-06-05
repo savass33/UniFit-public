@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/cardBackground"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="6dp"
+    android:elevation="1dp">
+
+    <!-- Ícone do exercício -->
+    <ImageView
+        android:id="@+id/imagemExercicio"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/supinoimg"
+        android:contentDescription="Imagem do exercício" />
+
+    <!-- Nome, séries e repetições -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/nomeExercicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do exercício"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/seriesRepsExercicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3x12"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <!-- Botão "Feito" -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:backgroundTint="#007AFF"
+        android:drawableStart="@drawable/ic_check_outline"
+        android:drawablePadding="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="Feito"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

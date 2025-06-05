@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme overrides for Dark Mode -->
+    <!-- Parent is Theme.Material3.DayNight.NoActionBar, defined in values/themes.xml -->
+    <!-- The system automatically uses this file's overrides when dark mode is active -->
+    <style name="Base.Theme.UniFit" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. Using colors defined in values-night/colors.xml -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!-- Status bar color for dark theme -->
+        <item name="android:statusBarColor">@color/colorSurface</item> <!-- Dark surface for status bar -->
+
+        <!-- Backgrounds and Surfaces -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/colorOnSurfaceVariant</item>
+        <item name="colorOutline">@color/colorOutline</item>
+
+        <!-- Error color -->
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorHint">@color/textColorHint</item>
+        <item name="android:textColorLink">@color/textColorLink</item>
+
+        <!-- Widget styles inherit from values/themes.xml but will use these overridden colors -->
+        <!-- Example: EditText background will use @drawable/edittext_background, -->
+        <!-- but the drawable itself might need a -night version or use theme attributes -->
+        <item name="editTextStyle">@style/Widget.UniFit.EditText</item>
+        <item name="buttonStyle">@style/Widget.UniFit.Button</item>
+        <item name="cardViewStyle">@style/Widget.UniFit.CardView</item>
+    </style>
+
+    <!-- Theme.UniFit inherits from Base.Theme.UniFit, so it gets these overrides automatically -->
+
+</resources>
