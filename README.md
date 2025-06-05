@@ -1,4 +1,4 @@
-'''# UniFit - Seu Aplicativo de Treinamento Personalizado
+# UniFit - Seu Aplicativo de Treinamento Personalizado
 
 ## Introdução
 
