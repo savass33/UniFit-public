@@ -4,7 +4,6 @@
 
 O UniFit é um aplicativo Android inovador projetado para revolucionar a maneira como alunos e instrutores interagem em academias e centros de treinamento. Desenvolvido com tecnologias modernas e foco na experiência do usuário, o UniFit oferece uma plataforma completa para gerenciamento de treinos, acompanhamento de progresso e comunicação eficiente. Este projeto representa o esforço colaborativo de uma equipe dedicada a criar uma solução robusta e intuitiva para o universo fitness, facilitando a jornada de alunos em busca de seus objetivos e otimizando o trabalho dos profissionais da área.
 
-'''
 
 
 
@@ -87,6 +86,6 @@ Cada membro contribuiu significativamente para a concepção, desenvolvimento e 
 
 ## Agradecimentos
 
-Agradecemos a todos que apoiaram o desenvolvimento deste projeto, seja através de orientação, feedback ou testes. O UniFit representa um passo importante na aplicação de tecnologia para melhorar a experiência no ambiente fitness.
+Agradecemos a todos que apoiaram o desenvolvimento deste projeto, em especial o professor Thiago Narak Carvalho de Oliveira, seja através de orientação, feedback ou testes. O UniFit representa um passo importante na aplicação de tecnologia para melhorar a experiência no ambiente fitness.
 
 
